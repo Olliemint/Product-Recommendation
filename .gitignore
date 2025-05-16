@@ -1,83 +1,23 @@
-# Django #
-*.log
-*.pot
-*.pyc
+# .gitignore
+
+# Python
 __pycache__/
-local_settings.py
-media/
-
-# Backup files #
-*.bak 
-*.swp
-*~
-.~lock*
-
-# IDE #
-.vscode/
-.idea/
-*.swp
-*.swo
-.DS_Store
-
-# Environment #
-.env
-.env.local
-.env.development
-.env.test
-.env.production
-venv/
-env/
-.venv/
-ENV/
-
-# Coverage #
-.coverage
-htmlcov/
-.coverage.*
-*.cover
-*.py,cover
-
-# Tests #
-.pytest_cache/
-.mypy_cache/
-
-# Static files #
-staticfiles/
-static_collected/
-
-# Database migrations (optional - some teams track these)
-# !/recommendations/migrations/
-# /recommendations/migrations/*
-# !/recommendations/migrations/__init__.py
-
-# Jupyter Notebook #
-.ipynb_checkpoints
-
-# macOS #
-.DS_Store
-._*
-
-# Windows #
-Thumbs.db
-ehthumbs.db
-[Dd]esktop.ini
-
-# PyCharm #
-.idea/
-*.iml
-
-# Visual Studio Code #
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/
-
-# Virtual environment #
-venv/
-ENV/
-
-# Python #
 *.py[cod]
-*$py.class
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
